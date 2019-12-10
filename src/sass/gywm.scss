@@ -1,0 +1,112 @@
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth: 640;
+body{
+    background-color: rgb(245, 245, 245);
+}
+.bigbox{overflow: hidden;
+    overflow-y: hidden;
+.top{    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: px2rem(25) 0;
+   .top_min{
+       img{
+                 margin-left: px2rem(45);
+                 margin-top: px2rem(20);
+                 width: px2rem(43);
+                 height: px2rem(43);
+           }
+   }
+   .top_min_1{
+       p{
+               margin-top: px2rem(20);
+               margin-right: px2rem(90);
+               font-size: px2rem(35);
+               font-weight: 600;
+   }
+   }
+      
+}
+.st{background-color: white;
+    .st_1{
+        img{  display: block;
+          width: px2rem(230);
+          height: px2rem(230);
+          margin:  0 auto;
+          padding-top: px2rem(130) ;
+          padding-bottom: px2rem(40);
+           }
+        }
+        .st_2{
+          p{text-align: center;
+            font-size: px2rem(70);
+            font-weight: 600;
+        }
+        span{display: block;
+           color: rgb(155, 155, 155);
+           font-size: px2rem(30);
+            text-align: center;
+            padding-top:  px2rem(35);
+            padding-bottom: px2rem(80);
+        }
+      }
+     }
+
+ .sf{
+        overflow: hidden;
+        background-color: white;
+        margin-top: px2rem(20);
+        .sjh{
+            overflow: hidden;
+            padding: px2rem(40) 0;
+            p{float: left;
+                font-size: px2rem(30);
+                margin-left: px2rem(40);
+            }
+        }
+        .yzm {
+            float: right;
+            margin-right: px2rem(40);
+            font-size: px2rem(60);
+        }
+    }
+.qd{
+        padding: px2rem(70) 0;
+    }
+    .qd_1{
+     width: 65%;
+     height: px2rem(70);
+     background-color: rgb(235, 235, 235);
+     border-radius: 50% / 180%;
+     margin: 0 auto;
+     overflow: hidden;
+     position: relative;
+     img{
+         display: block;
+         float: left;
+         width: px2rem(30);
+         height: px2rem(30);
+        //  margin-left: px2rem(50);
+         position: absolute;
+         left: 28%;
+         top:27%;
+     }
+     a{  color: black;
+         display: block;
+         text-align: center;
+         line-height: 75px;
+         font-size: px2rem(30);
+         text-decoration: none;
+     }
+    }
+    .bottom{
+        bottom:0%;
+        p{
+            color: rgb(205, 205, 205);
+            font-size: px2rem(25);
+            text-align: center;
+        }
+    }
+// 大盒子
+}

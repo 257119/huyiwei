@@ -1,0 +1,80 @@
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth: 640;
+body{
+    background-color:rgb(245, 245, 245);
+}
+.bigbox{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: px2rem(55) 0;
+}
+.head h3{
+    margin-top: px2rem(40);
+    margin-right: px2rem(500);
+    font-size: px2rem(35);
+    font-weight: 600;;
+}
+.head img{
+    margin-left: px2rem(15);
+    margin-top: px2rem(-30);
+    width: px2rem(50);
+    height: px2rem(50);
+    display: block;
+}
+.body{margin-top: px2rem(40);
+    width: 100%;
+    background-color:white;
+    .tx{
+        padding: px2rem(20) 0;
+        width: 100%;
+        height: px2rem(70);
+        border-bottom: 1px solid #cccccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.tx p{
+    font-size: px2rem(25);
+    margin-right: px2rem(25);
+}
+.tx img{
+   width: px2rem(70);
+   height: px2rem(70);
+   margin-right: px2rem(25);
+}
+.tx a{
+    font-size: px2rem(25);
+    margin-left: px2rem(23);
+}
+.db{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: px2rem(15);
+    padding: px2rem(20) 0;
+}
+.db p{
+    margin-right: px2rem(25);
+   }
+.db a{font-size: px2rem(25);
+       margin-left: px2rem(25);
+   }
+ .tc{
+    width: 100%;
+    padding: px2rem(25) 0;
+    background-color:white;
+    margin-top: px2rem(15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: px2rem(30);
+}

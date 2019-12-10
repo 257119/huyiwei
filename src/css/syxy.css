@@ -1,0 +1,28 @@
+.bigbox {
+  overflow: hidden;
+  overflow-y: hidden; }
+  .bigbox .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.625rem 0;
+    border-bottom: 3px solid #f1f1f1; }
+    .bigbox .top .top_min img {
+      margin-left: 1.125rem;
+      width: 1.075rem;
+      height: 1.075rem; }
+    .bigbox .top .top_min_1 p {
+      margin-right: 2.25rem;
+      font-size: 0.875rem;
+      font-weight: 600; }
+  .bigbox .zi {
+    margin-top: 1rem; }
+    .bigbox .zi .zi_1 {
+      line-height: 1rem; }
+      .bigbox .zi .zi_1 h3 {
+        font-size: 0.625rem;
+        font-weight: 600; }
+      .bigbox .zi .zi_1 p {
+        font-size: 0.35rem;
+        color: #7a7a7a; }

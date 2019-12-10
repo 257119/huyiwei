@@ -1,0 +1,46 @@
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth: 640;
+
+.bigbox{overflow: hidden;
+    overflow-y: hidden;
+.top{    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: px2rem(25) 0;
+    border-bottom: 3px solid rgb(241, 241, 241);
+   .top_min{
+       img{
+                 margin-left: px2rem(45);
+                //  margin-top: px2rem(10);
+                 width: px2rem(43);
+                 height: px2rem(43);
+           }
+   }
+   .top_min_1{
+       p{
+            //    margin-top: px2rem(10);
+               margin-right: px2rem(90);
+               font-size: px2rem(35);
+               font-weight: 600;
+   }
+   }
+      
+}
+.zi{
+    margin-top: px2rem(40);
+    .zi_1{line-height: px2rem(40);
+        h3{
+            font-size: px2rem(25);
+            font-weight: 600;
+            // line-height: px2rem(40);
+        }
+        p{
+            font-size: px2rem(14);
+            // line-height: px2rem(40);
+            color: rgb(122, 122, 122);
+        }
+    }
+}
+// bigbox
+}

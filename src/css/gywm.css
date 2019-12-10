@@ -1,0 +1,88 @@
+body {
+  background-color: whitesmoke; }
+
+.bigbox {
+  overflow: hidden;
+  overflow-y: hidden; }
+  .bigbox .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.625rem 0; }
+    .bigbox .top .top_min img {
+      margin-left: 1.125rem;
+      margin-top: 0.5rem;
+      width: 1.075rem;
+      height: 1.075rem; }
+    .bigbox .top .top_min_1 p {
+      margin-top: 0.5rem;
+      margin-right: 2.25rem;
+      font-size: 0.875rem;
+      font-weight: 600; }
+  .bigbox .st {
+    background-color: white; }
+    .bigbox .st .st_1 img {
+      display: block;
+      width: 5.75rem;
+      height: 5.75rem;
+      margin: 0 auto;
+      padding-top: 3.25rem;
+      padding-bottom: 1rem; }
+    .bigbox .st .st_2 p {
+      text-align: center;
+      font-size: 1.75rem;
+      font-weight: 600; }
+    .bigbox .st .st_2 span {
+      display: block;
+      color: #9b9b9b;
+      font-size: 0.75rem;
+      text-align: center;
+      padding-top: 0.875rem;
+      padding-bottom: 2rem; }
+  .bigbox .sf {
+    overflow: hidden;
+    background-color: white;
+    margin-top: 0.5rem; }
+    .bigbox .sf .sjh {
+      overflow: hidden;
+      padding: 1rem 0; }
+      .bigbox .sf .sjh p {
+        float: left;
+        font-size: 0.75rem;
+        margin-left: 1rem; }
+    .bigbox .sf .yzm {
+      float: right;
+      margin-right: 1rem;
+      font-size: 1.5rem; }
+  .bigbox .qd {
+    padding: 1.75rem 0; }
+  .bigbox .qd_1 {
+    width: 65%;
+    height: 1.75rem;
+    background-color: #ebebeb;
+    border-radius: 50% / 180%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+    .bigbox .qd_1 img {
+      display: block;
+      float: left;
+      width: 0.75rem;
+      height: 0.75rem;
+      position: absolute;
+      left: 28%;
+      top: 27%; }
+    .bigbox .qd_1 a {
+      color: black;
+      display: block;
+      text-align: center;
+      line-height: 75px;
+      font-size: 0.75rem;
+      text-decoration: none; }
+  .bigbox .bottom {
+    bottom: 0%; }
+    .bigbox .bottom p {
+      color: #cdcdcd;
+      font-size: 0.625rem;
+      text-align: center; }

@@ -1,0 +1,67 @@
+body {
+  background-color: whitesmoke; }
+
+.bigbox {
+  overflow: hidden;
+  overflow-y: hidden; }
+  .bigbox .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white; }
+    .bigbox .top .top_min img {
+      margin-left: 1.125rem;
+      margin-top: 1.375rem;
+      width: 1.125rem;
+      height: 1.125rem; }
+    .bigbox .top .top_min_1 p {
+      margin-top: 1.375rem;
+      margin-right: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 600; }
+    .bigbox .top .top_min_2 p {
+      margin-top: 1.5rem;
+      font-size: 0.625rem;
+      margin-right: 1.125rem; }
+  .bigbox .sgy {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem 0;
+    height: 2rem;
+    line-height: 1rem;
+    font-weight: 600;
+    background-color: white; }
+    .bigbox .sgy .sgy_1 {
+      color: red;
+      width: 40%;
+      border-bottom: 2px solid red;
+      text-align: center;
+      font-size: 0.75rem; }
+    .bigbox .sgy .sgy_2 {
+      margin-right: 2rem;
+      color: #999999;
+      font-size: 0.75rem; }
+  .bigbox .kg {
+    margin-top: 0.75rem; }
+    .bigbox .kg .kg_1 {
+      display: flex;
+      justify-content: space-around;
+      background-color: white;
+      width: 90%;
+      margin: 0 auto 30px auto;
+      padding: 0.75rem 0; }
+      .bigbox .kg .kg_1 .kg_1_1 {
+        color: red;
+        font-size: 1rem;
+        margin-top: 1.625rem; }
+      .bigbox .kg .kg_1 .kg_1_2 {
+        line-height: 1.25rem;
+        border-left: 1px dashed #999999;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem; }
+        .bigbox .kg .kg_1 .kg_1_2 span {
+          font-size: 0.75rem; }
+        .bigbox .kg .kg_1 .kg_1_2 p {
+          font-size: 0.65rem;
+          color: #999999; }

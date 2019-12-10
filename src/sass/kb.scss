@@ -1,0 +1,96 @@
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth: 640;
+body{
+    background-color:rgb(245, 245, 245);
+}
+.bigbox{overflow: hidden;
+    overflow-y: hidden;
+   
+.top{width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   .top_min{
+       img{
+                 margin-left: px2rem(45);
+                 margin-top: px2rem(55);
+                 width: px2rem(45);
+                 height: px2rem(45);
+           }
+   }
+   .top_min_1{
+       p{
+               margin-top: px2rem(55);
+               margin-right: px2rem(10);
+               font-size: px2rem(30);
+               font-weight: 600;
+        }
+   }
+   .top_min_2{
+       p{
+        margin-top: px2rem(60);
+        font-size: px2rem(25);
+        margin-right: px2rem(45);
+       }
+   }
+      
+}
+//3个月内
+   .sgy{  width: 100%;
+          display: flex;
+          justify-content: space-around;
+          padding: px2rem(30) 0;
+          height: px2rem(80);
+          line-height: px2rem(40);
+          font-weight: 600;
+          background-color: white;
+    .sgy_1{
+        color:red;
+        width: 40%;
+        border-bottom: 2px solid red ;
+        text-align: center;
+        font-size:  px2rem(30);
+    }
+    .sgy_2{
+        margin-right: px2rem(80);
+        color: rgb(153, 153, 153);
+        font-size:  px2rem(30);
+    }
+   }
+   //kg
+   .kg{
+        margin-top: px2rem(30);
+
+       .kg_1{
+        //    margin-top: px2rem(50) ;
+           display: flex;
+           justify-content: space-around;
+           background-color: white;
+           width: 90%;
+           margin: 0 auto 30px auto;
+           padding: px2rem(30) 0;
+        //    border-top:20px solid rgb(240, 240, 240);
+           .kg_1_1{
+               color: red;
+               font-size: px2rem(40);
+               margin-top: px2rem(65);
+            
+           }
+           .kg_1_2  {
+               line-height: px2rem(50);
+               border-left: 1px dashed rgb(153, 153, 153);
+               padding-left: px2rem(30);
+               padding-right: px2rem(30);
+               span{
+                 font-size: px2rem(30);
+               }
+               p{
+                   font-size: px2rem(26);
+                   color: rgb(153, 153, 153);
+               }
+            }
+        }
+       
+     }
+// .bigbox
+}

@@ -1,0 +1,75 @@
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth: 640;
+body{
+    background-color:rgb(245, 245, 245);
+}
+.bigbox{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:px2rem(22) 0;
+}
+.head img{
+margin-left: px2rem(10);
+width: px2rem(50);
+height: px2rem(50);
+}
+.head p{
+color:red;
+}
+.head h3{
+margin-right: px2rem(60);
+font-size: px2rem(32);
+}
+.head_1{
+width: 100%;
+background-color:rgb(245, 245, 245);
+display: flex;
+justify-content:center;
+align-items: center;
+font-size: px2rem(25);
+padding:px2rem(18) 0;
+}
+.fhuo{
+width: 90%;
+margin: 0 auto;
+background-color:white;
+display: flex;
+justify-content: space-between;
+padding:px2rem(20) 0;
+line-height: px2rem(45);
+}
+.fhuo h3{
+    font-size: px2rem(28);
+}
+.fhuo ul {
+padding-bottom: px2rem(10);
+margin-left: px2rem(35);
+font-size: px2rem(23);
+position: relative;
+  img{
+    display: block;
+    position: absolute;
+    width: px2rem(20);
+    height: px2rem(20);
+    left: -6%;
+    top:10%;
+  }
+}
+.wl{
+color:#666666;
+font-size: px2rem(20);
+}
+.tupian1{
+margin-right: px2rem(10);
+margin-top: px2rem(-20);
+  img{
+    width: px2rem(70);
+    height: px2rem(70);
+  }
+}
